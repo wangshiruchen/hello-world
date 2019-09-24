@@ -1,0 +1,17 @@
+运算符	                                                                                                                        类别或名称
+x.y、x?.y、x?[y]、f(x)、a[i]、x++、x--、new、typeof、checked、unchecked、default、nameof、delegate、sizeof、stackalloc、x->y	      基本
++x、-x、!x、~x、++x、--x、^x、(T)x、await、&x、*x、true 和 false	                                                                 一元
+x..y	                                                                                                                           范围
+x * y、x / y、x % y	                                                                                                             乘法
+x + y、x – y	                                                                                                                    加法
+x << y、x >> y                                                                                                                 	移位
+x < y、x > y、x <= y、x >= y、is、as                                                                                       	关系和类型测试
+x == y、x != y                                                                                                                 	相等
+x & y                                                                                                       	布尔逻辑 AND 或按位逻辑 AND
+x ^ y                                                                                                       	布尔逻辑 XOR 或按位逻辑 XOR
+x | y                                                                                                       	布尔逻辑 OR 或按位逻辑 OR
+x && y                                                                                                                      	条件“与”
+x || y                                                                                                                       	条件“或”
+x ?? y                                                                                                                  	Null 合并运算符
+c ? t : f                                                                                                                   	条件运算符
+x = y、x += y、x -= y、x *= y、x /= y、x %= y、x &= y、x |= y、x ^= y、x <<= y、x >>= y、x ??= y、=>                    	赋值和 lambda 声明
